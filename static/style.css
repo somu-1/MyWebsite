@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: rgb(234, 52, 52);
+}
+
+ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 14px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: black;
+}
+
+#logo {
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 35px;
+    margin-left: 8px;
+}
+
+#logo img {
+    height: 40px;
+    filter: invert(1);
+}
+
+section#intro div {
+    font-size: 37px;
+    padding: 1px;
+}
+
+section#intro div.second {
+    font-size: 28px;
+}
+
+section#sponsor div {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 25px;
+}
+
+#intro {
+    background-color: rgb(17, 17, 71);
+    height: 350px;
+    background: center / cover no-repeat url('../static/bg3.jpg');
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#sponsor {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    height: 180px;
+    background-color: rgb(201, 229, 252);
+    color: black;
+}
+
+section#mission {
+    height: 240px;
+    margin: auto;
+}
+
+section#mission h3 {
+    /* background-color: rgb(84, 10, 55); */
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+#mission {
+    color: black;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+}
+
+.card {
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    height: 150px;
+    width: 29%;
+    margin: 14px 15px;
+    background-color: rgba(237, 140, 140, 0.234);
+}
+
+.card h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+ /* #img1{
+    height: 50px;
+} */
+/*#img2{
+    height: 40px;
+}
+#img3{
+    height: 10px;
+} */
+.card-box p {
+    padding:5px 10px;
+}
+
+.card-box {
+    display: flex;
+    padding: 15px 5px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.card-img {
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card h2 {
+    padding-top: 13px;
+    font-family: 'Chivo Mono', monospace;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-size: 1rem;
+}
+#sponsor-img{
+    height: 105px;
+    /* max-width: 1000px; */
+}
+.spimg{
+    height: 80%;
+    padding:1px 6px;
+}
+
+#footer {
+    height:40px;
+    background-color: rgb(4, 4, 4);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+section {
+    color: white;
+}

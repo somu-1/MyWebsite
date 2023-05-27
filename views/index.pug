@@ -1,0 +1,73 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+ doctype html
+html(lang="en")
+    head
+        style 
+            include ../static/style.css 
+
+    body 
+        nav#navbar
+            ul 
+                div#logo
+                    img(src="../static/logo1.png", alt="")
+                    |   SDA
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") About us ]
+                li #[a(href="/") contact us ]
+        section#intro 
+            div   Welcome to Somu's dance academy
+            div.second The biggest dance academy 
+        section#mission 
+            h3 Our mission
+            div.card
+                h2 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="../static/1.png",id="img1" ,alt="")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed .
+
+            div.card
+                h2 Dance on the you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/2.png", alt="",id="img2")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi .
+                    
+            div.card
+                h2 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/3.png", alt="",id="img3")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed itaque quaes.
+        section#sponsor 
+            div   Our sponsers
+            div#sponsor-img
+                img(src="../static/spon1.png", alt="",class="spimg")
+                img(src="../static/spon2.png", alt="",class="spimg")
+                img(src="../static/spon3.png", alt="",class="spimg")
+                img(src="../static/spon4.png", alt="",class="spimg")
+                img(src="../static/spon5.png", alt="",class="spimg")
+
+
+        section#footer 
+            |   Copyright © 2004-23 SomuDanceAcademy.com | All rights reserved
+        script 
+            include ../static/index.js

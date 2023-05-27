@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+            include ../static/style.css
+block content 
+     
+        section#intro 
+            div   Welcome to Somu's dance academy
+            div.second The biggest dance academy 
+        section#mission 
+            h3 Our mission
+            div.card
+                h2 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="../static/1.png",id="img1" ,alt="")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed .
+
+            div.card
+                h2 Dance on the you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/2.png", alt="",id="img2")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi .
+                    
+            div.card
+                h2 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/3.png", alt="",id="img3")
+                    div.card-content
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed itaque quaes.
+        section#sponsor 
+            div   Our sponsers
+            div#sponsor-img
+                img(src="../static/spon1.png", alt="",class="spimg")
+                img(src="../static/spon2.png", alt="",class="spimg")
+                img(src="../static/spon3.png", alt="",class="spimg")
+                img(src="../static/spon4.png", alt="",class="spimg")
+                img(src="../static/spon5.png", alt="",class="spimg")
